@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset > form > fieldset > * {
+    margin: 0.2rem;
+}
+
+#display { 
+    margin: 1rem;
+}
+
+input[type="submit"] {
+    background-color: white;
+    border: 0px;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+}
